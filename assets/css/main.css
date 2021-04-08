@@ -1,12 +1,17 @@
 /* ########## FONT ########## */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&display=swap');
+/*font-family: 'IBM Plex Serif', serif;*/
 
 @font-face {
-  font-family: Messapia-Bold;
-  src: url('../font/Messapia-Bold.woff') format('woff'),
-    url('../font/Messapia-Bold.woff2') format('woff2')
+  font-family: "Cartograph Mono CF";
+  src: url('./assets/fonts/cartograph-mono-cf-demi-bold.woff2') format('woff2'),
 }
 
+
 /* ########## DOM ########## */
+body {
+  overflow-x: hidden;
+}
 html {
   --color-main: #9437FF;
   --color-text-primary: white;
@@ -23,28 +28,40 @@ html {
   --fontsize-title: 18px;
 }
 
-body {
-
-}
-
-footer {
-
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-
-}
-
 .websiteMargin {
+margin-left: 2rem;
+  margin-right: 2rem;
+}
 
+.bg-yellow{
+  background-color: #f5c86e;
+  color: white;
+}
+
+.bg-blue {
+  background-color: #2b4162;
 }
 
 /* ########## TYPO ########## */
+p {
+  margin: 0;
+}
 
+.display-6 {
+  font-size: 1.2rem;
+}
+
+.display-7 {
+  font-size: 0.8rem;
+}
+
+.ibmSerifBold {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.cartoMonodB {
+  font-family: "Cartograph Mono CF";
+}
 
 /* ########## UTILITY ########## */
 
