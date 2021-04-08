@@ -11,11 +11,30 @@
 }
 
 @font-face {
-  font-family: "Cartograph Heavy";
-  src: url('./assets/fonts/CartographMonoCF-Heavy.woff2') format('woff2'),
+  font-family: "Cartograph Mono CF Medium";
+  src: url('./assets/fonts/CartographMonoCF-Medium.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: "Cartograph Sans CF";
+  src: url('./assets/fonts/cartograph-sans-cf-demi-bold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: "Cartograph Mono CF Heavy";
+  src: url('./assets/fonts/Cartograph-Mono-CF-Heavy.woff2') format('woff2'),
 }
 
 
+#flush-collapseOne > div > div > div:nth-child(1) > div > div > a {
+  color:#2b4162;
+  text-decoration: none;
+}
+
+#flush-collapseOne > div > div > div:nth-child(1) > div > div > a:hover {
+  color:#f5c86e;
+  text-decoration: none;
+}
 
 /* ########## DOM ########## */
 body {
@@ -77,6 +96,9 @@ font-size: 2vh;
   font-size: 1.7vh;
 }
 
+.display-8 {
+  font-size: 2.3vh;
+}
 
 .ibmSerifBold {
   font-family: "IBM Plex Serif", serif;
@@ -92,9 +114,19 @@ font-size: 2vh;
 }
 
 .cartoMonoHeavy {
-  font-family: "Cartograph Heavy", monospace;
+  font-family: "Cartograph Mono CF" , monospace;
   font-weight: bold;
 }
+
+.cartoMonoMedium {
+  font-family: "Cartograph Mono CF" , monospace;
+  font-weight: medium;
+}
+
+.cartoSansdB {
+  font-family: "Cartograph Sans CF";
+}
+
 
 /* ########## UTILITY ########## */
 @keyframes mymove {
@@ -114,6 +146,7 @@ font-size: 2vh;
 
   animation: mymove 1s infinite alternate;
 }
+
 
 /* ########## MARQUEE ########## */
 /* .marquee {
