@@ -36,6 +36,16 @@
   text-decoration: none;
 }
 
+#flush-collapseTwo > div > div > div:nth-child(1) > div > div > a {
+  color:#2b4162;
+  text-decoration: none;
+}
+
+#flush-collapseTwo > div > div > div:nth-child(1) > div > div > a:hover {
+  color:#f5c86e;
+  text-decoration: none;
+}
+
 /* ########## DOM ########## */
 body {
   overflow-x: hidden;
@@ -127,6 +137,16 @@ font-size: 2vh;
   font-family: "Cartograph Sans CF";
 }
 
+
+.accordion-button::after {
+  margin-left: unset;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #2b4162;
+  background-color: white;
+  box-shadow: none;
+}
 
 /* ########## UTILITY ########## */
 @keyframes mymove {
