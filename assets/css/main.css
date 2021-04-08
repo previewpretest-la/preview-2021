@@ -2,10 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&display=swap');
 /*font-family: 'IBM Plex Serif', serif;*/
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
+/*font-family: 'IBM Plex Sans', sans-serif;*/
+
 @font-face {
   font-family: "Cartograph Mono CF";
   src: url('./assets/fonts/cartograph-mono-cf-demi-bold.woff2') format('woff2'),
 }
+
+@font-face {
+  font-family: "Cartograph Heavy";
+  src: url('./assets/fonts/CartographMonoCF-Heavy.woff2') format('woff2'),
+}
+
 
 
 /* ########## DOM ########## */
@@ -29,8 +38,13 @@ html {
 }
 
 .websiteMargin {
-margin-left: 2rem;
-  margin-right: 2rem;
+margin-left: 4vh;
+  margin-right: 4vh;
+}
+
+.websiteMargin2 {
+  margin-left: 15vh;
+  margin-right: 15vh;
 }
 
 .bg-yellow{
@@ -42,29 +56,64 @@ margin-left: 2rem;
   background-color: #2b4162;
 }
 
+.rounded {
+  border-radius: 1rem !important;
+}
+
 /* ########## TYPO ########## */
 p {
   margin: 0;
 }
 
+.display-5 {
+font-size: 2vh;
+}
+
 .display-6 {
-  font-size: 1.2rem;
+  font-size: 2.5vh;
 }
 
 .display-7 {
-  font-size: 0.8rem;
+  font-size: 1.7vh;
 }
+
 
 .ibmSerifBold {
   font-family: "IBM Plex Serif", serif;
 }
 
 .cartoMonodB {
-  font-family: "Cartograph Mono CF";
+  font-family: "Cartograph Mono CF" , monospace;
+}
+
+.ibmSans {
+  font-size: 3.25vh;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.cartoMonoHeavy {
+  font-family: "Cartograph Heavy", monospace;
+  font-weight: bold;
 }
 
 /* ########## UTILITY ########## */
+@keyframes mymove {
+  from {
+    top: 0;
+  }
 
+  to {
+    top: 15px;
+  }
+}
+
+
+#svg2{
+  width: 6vh;
+  position: relative;
+
+  animation: mymove 1s infinite alternate;
+}
 
 /* ########## MARQUEE ########## */
 /* .marquee {
