@@ -84,6 +84,11 @@ html {
     border-radius: 1rem !important;
 }
 
+.allineamento {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+}
 /* ########## TYPO ########## */
 p {
     margin: 0;
@@ -144,6 +149,11 @@ p {
 }
 
 /* ########## UTILITY ########## */
+.logo {
+  width: 25%;
+}
+
+
 @keyframes mymove {
     from {
         top: 0;
@@ -168,4 +178,29 @@ p {
         margin-left: auto;
         margin-right: auto;
     }
+
+  .websiteMargin2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .allineamento {
+    display: flex;
+    justify-content: right;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .ibmSans {
+    font-size: 2.5vh;
+    font-family: var(--font-sans);
+  }
+
+  .footer-mob {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
 }
