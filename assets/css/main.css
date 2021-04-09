@@ -6,230 +6,166 @@
 /*font-family: 'IBM Plex Sans', sans-serif;*/
 
 @font-face {
-  font-family: "Cartograph Mono CF";
-  src: url('./assets/fonts/cartograph-mono-cf-demi-bold.woff2') format('woff2'),
+    font-family: "Cartograph Mono CF";
+    src: url('./assets/fonts/cartograph-mono-cf-demi-bold.woff2') format('woff2'),
 }
 
 @font-face {
-  font-family: "Cartograph Mono CF Medium";
-  src: url('./assets/fonts/CartographMonoCF-Medium.woff2') format('woff2'),
+    font-family: "Cartograph Mono CF Medium";
+    src: url('./assets/fonts/CartographMonoCF-Medium.woff2') format('woff2'),
 }
 
 @font-face {
-  font-family: "Cartograph Sans CF";
-  src: url('./assets/fonts/cartograph-sans-cf-demi-bold.woff2') format('woff2'),
+    font-family: "Cartograph Sans CF";
+    src: url('./assets/fonts/cartograph-sans-cf-demi-bold.woff2') format('woff2'),
 }
 
 @font-face {
-  font-family: "Cartograph Mono CF Heavy";
-  src: url('./assets/fonts/Cartograph-Mono-CF-Heavy.woff2') format('woff2'),
+    font-family: "Cartograph Mono CF Heavy";
+    src: url('./assets/fonts/Cartograph-Mono-CF-Heavy.woff2') format('woff2'),
 }
 
 
 #flush-collapseOne > div > div > div:nth-child(1) > div > div > a {
-  color:#2b4162;
-  text-decoration: none;
+    color: var(--color-secondary);
+    text-decoration: none;
 }
 
 #flush-collapseOne > div > div > div:nth-child(1) > div > div > a:hover {
-  color:#f5c86e;
-  text-decoration: none;
+    color: var(--color-main);
+    text-decoration: none;
 }
 
 #flush-collapseTwo > div > div > div:nth-child(1) > div > div > a {
-  color:#2b4162;
-  text-decoration: none;
+    color: var(--color-secondary);
+    text-decoration: none;
 }
 
 #flush-collapseTwo > div > div > div:nth-child(1) > div > div > a:hover {
-  color:#f5c86e;
-  text-decoration: none;
+    color: var(--color-main);
+    text-decoration: none;
 }
 
 /* ########## DOM ########## */
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
+
 html {
-  --color-main: #9437FF;
-  --color-text-primary: white;
-  --color-text-secondary: #FF0009;
-  --font-secondary: Messapia-Bold;
-  --font-text: "Inter", sans-serif;
-  --font-light: 300;
-  --font-reg: 400;
-  --font-med: 500;
-  --font-bold: 600;
-  --font-xbold: 700;
-  --font-xxbold: 800;
-  --fontitalic: italic;
-  --fontsize-title: 18px;
+    --color-main: #f5c86e;
+    --color-secondary: #2b4162;
+    --font-sans: 'IBM Plex Sans', sans-serif;
+    --font-sans-secondary: "Cartograph Sans CF", sans-serif;
+    --font-serif: "IBM Plex Serif", serif;
+    --font-mono: "Cartograph Mono CF", monospace;
+
 }
 
 .websiteMargin {
-margin-left: 4vh;
-  margin-right: 4vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
 }
 
 .websiteMargin2 {
-  margin-left: 15vh;
-  margin-right: 15vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
 }
 
-.bg-yellow{
-  background-color: #f5c86e;
-  color: white;
+.bg-yellow {
+    background-color: var(--color-main);
+    color: white;
 }
 
 .bg-blue {
-  background-color: #2b4162;
+    background-color: var(--color-secondary);
 }
 
 .rounded {
-  border-radius: 1rem !important;
+    border-radius: 1rem !important;
 }
 
 /* ########## TYPO ########## */
 p {
-  margin: 0;
+    margin: 0;
 }
 
 .display-5 {
-font-size: 2vh;
+    font-size: 2vh;
 }
 
 .display-6 {
-  font-size: 2.5vh;
+    font-size: 2.5vh;
 }
 
 .display-7 {
-  font-size: 1.7vh;
+    font-size: 1.7vh;
 }
 
 .display-8 {
-  font-size: 2.3vh;
+    font-size: 2.3vh;
 }
 
 .ibmSerifBold {
-  font-family: "IBM Plex Serif", serif;
+    font-family: var(--font-serif);
 }
 
 .cartoMonodB {
-  font-family: "Cartograph Mono CF" , monospace;
+    font-family: var(--font-mono);
 }
 
 .ibmSans {
-  font-size: 3.25vh;
-  font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 3.25vh;
+    font-family: var(--font-sans);
 }
 
 .cartoMonoHeavy {
-  font-family: "Cartograph Mono CF" , monospace;
-  font-weight: bold;
+    font-family: var(--font-mono);
+    font-weight: bold;
 }
 
 .cartoMonoMedium {
-  font-family: "Cartograph Mono CF" , monospace;
-  font-weight: medium;
+    font-family: var(--font-mono);
+    font-weight: medium;
 }
 
 .cartoSansdB {
-  font-family: "Cartograph Sans CF";
+    font-family: var(--font-sans-secondary);
 }
 
 
 .accordion-button::after {
-  margin-left: unset;
+    margin-left: unset;
 }
 
 .accordion-button:not(.collapsed) {
-  color: #2b4162;
-  background-color: white;
-  box-shadow: none;
+    color: var(--color-secondary);
+    background-color: white;
+    box-shadow: none;
 }
 
 /* ########## UTILITY ########## */
 @keyframes mymove {
-  from {
-    top: 0;
-  }
+    from {
+        top: 0;
+    }
 
-  to {
-    top: 15px;
-  }
+    to {
+        top: 15px;
+    }
 }
 
 
-#svg2{
-  width: 6vh;
-  position: relative;
-
-  animation: mymove 1s infinite alternate;
+#svg2 {
+    width: 6vh;
+    position: relative;
+    animation: mymove 1s infinite alternate;
 }
-
-
-/* ########## MARQUEE ########## */
-/* .marquee {
-  overflow: hidden;
-  --offset: 0vw;
-  --move-initial: calc(-5% + var(--offset));
-  --move-final: calc(-20% + var(--offset));
-}
-
-.marquee__inner {
-  width: fit-content;
-  display: flex;
-  transform: translate3d(var(--move-initial), 0, 0);
-  animation: marquee 5s linear infinite;
-  animation-play-state: paused;
-}
-
-.marquee span {
-  font-size: 25px;
-  padding: 0 2vw;
-  font-family: var(--font-text);
-  font-weight: var(--font-bold);
-  font-style: var(--fontitalic);
-  color: var(--color-text-secondary);
-}
-
-.country span {
-  color: #FDEF4B;
-}
-
-.marquee__inner:hover {
-  animation-play-state: running;
-  cursor:context-menu;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translate3d(var(--move-initial), 0, 0);
-  }
-
-  100% {
-    transform: translate3d(var(--move-final), 0, 0);
-  }
-} */
-
-/* ########## NAVBAR ########## */
-
-
-/* ########## HOME PAGE ########## */
-
-
-/* ########## CATEGORY PAGE ########## */
-
-
-/* ########## PRODUCT PAGE ########## */
-
-/* ########## ABOUT PAGE ########## */
 
 
 /* iphone */
 @media only screen and (max-width: 414px) {
-  .websiteMargin {
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .websiteMargin {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
