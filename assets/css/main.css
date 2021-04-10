@@ -192,6 +192,10 @@ p {
     text-decoration: none;
 }
 
+.bordoDx {
+    border-right: 2px solid var(--color-secondary);
+}
+
 /* iphone */
 @media only screen and (max-width: 414px) {
     .websiteMargin {
@@ -222,5 +226,10 @@ p {
     text-align: center;
     padding-top: 1rem;
   }
+
+    .bordoDx {
+        border-bottom: 2px solid var(--color-secondary);
+        border-right: 0px solid var(--color-secondary);
+    }
 
 }
