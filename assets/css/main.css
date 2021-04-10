@@ -182,6 +182,16 @@ p {
     border: 2px solid;
 }
 
+.linkNome {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.linkNome:hover {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
 /* iphone */
 @media only screen and (max-width: 414px) {
     .websiteMargin {
