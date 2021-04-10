@@ -196,6 +196,10 @@ p {
     border-right: 2px solid var(--color-secondary);
 }
 
+.marginImg {
+    padding-bottom: 0px;
+}
+
 /* iphone */
 @media only screen and (max-width: 414px) {
     .websiteMargin {
@@ -230,6 +234,10 @@ p {
     .bordoDx {
         border-bottom: 2px solid var(--color-secondary);
         border-right: 0px solid var(--color-secondary);
+    }
+
+    .marginImg {
+        padding-bottom: 10px;
     }
 
 }
