@@ -153,6 +153,9 @@ p {
   width: 25%;
 }
 
+.bottonePartecipa {
+    margin-left: auto; margin-right: 10px
+}
 
 @keyframes mymove {
     from {
@@ -171,6 +174,13 @@ p {
     animation: mymove 1s infinite alternate;
 }
 
+.accordion-body {
+    border-top: 2px solid;
+}
+
+.accordion-item {
+    border: 2px solid;
+}
 
 /* iphone */
 @media only screen and (max-width: 414px) {
