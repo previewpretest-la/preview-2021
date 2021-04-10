@@ -175,11 +175,11 @@ p {
 }
 
 .accordion-body {
-    border-top: 2px solid;
+    border-top: 2px solid var(--color-secondary);
 }
 
 .accordion-item {
-    border: 2px solid;
+    border: 2px solid var(--color-secondary);
 }
 
 .linkNome {
