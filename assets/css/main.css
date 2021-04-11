@@ -7,43 +7,22 @@
 
 @font-face {
     font-family: "Cartograph Mono CF";
-    src: url('./assets/fonts/cartograph-mono-cf-demi-bold.woff2') format('woff2'),
+    src: url('../fonts/cartograph-mono-cf-demi-bold.woff2') format('woff2'),
 }
 
 @font-face {
     font-family: "Cartograph Mono CF Medium";
-    src: url('./assets/fonts/CartographMonoCF-Medium.woff2') format('woff2'),
+    src: url('../fonts/CartographMonoCF-Medium.woff2') format('woff2'),
 }
 
 @font-face {
     font-family: "Cartograph Sans CF";
-    src: url('./assets/fonts/cartograph-sans-cf-demi-bold.woff2') format('woff2'),
+    src: url('../fonts/cartograph-sans-cf-demi-bold.woff2') format('woff2'),
 }
 
 @font-face {
     font-family: "Cartograph Mono CF Heavy";
-    src: url('./assets/fonts/Cartograph-Mono-CF-Heavy.woff2') format('woff2'),
-}
-
-
-#flush-collapseOne > div > div > div:nth-child(1) > div > div > a {
-    color: var(--color-secondary);
-    text-decoration: none;
-}
-
-#flush-collapseOne > div > div > div:nth-child(1) > div > div > a:hover {
-    color: var(--color-main);
-    text-decoration: none;
-}
-
-#flush-collapseTwo > div > div > div:nth-child(1) > div > div > a {
-    color: var(--color-secondary);
-    text-decoration: none;
-}
-
-#flush-collapseTwo > div > div > div:nth-child(1) > div > div > a:hover {
-    color: var(--color-main);
-    text-decoration: none;
+    src: url('../fonts/Cartograph-Mono-CF-Heavy.woff2') format('woff2'),
 }
 
 /* ########## DOM ########## */
@@ -203,7 +182,7 @@ p {
 }
 
 .marginImg {
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 /* iphone */
@@ -239,7 +218,7 @@ p {
 
     .bordoDx {
         border-bottom: 2px solid var(--color-secondary);
-        border-right: 0px solid var(--color-secondary);
+        border-right: 0 solid var(--color-secondary);
     }
 
     .marginImg {
