@@ -124,7 +124,7 @@ p {
 
 
 .accordion-button::after {
-    margin-left: unset;
+    margin-left: auto;
 }
 
 .accordion-button:not(.collapsed) {
