@@ -6,23 +6,23 @@
 /*font-family: 'IBM Plex Sans', sans-serif;*/
 
 @font-face {
-    font-family: "Cartograph Mono CF";
-    src: url('../fonts/cartograph-mono-cf-demi-bold.woff2') format('woff2'),
+    font-family: Cartograph Mono CF;
+    src: url(../fonts/cartograph-mono-cf-demi-bold.woff2) format('woff2'),
 }
 
 @font-face {
-    font-family: "Cartograph Mono CF Medium";
-    src: url('../fonts/CartographMonoCF-Medium.woff2') format('woff2'),
+    font-family: Cartograph Mono CF Medium;
+    src: url(../fonts/CartographMonoCF-Medium.woff2) format('woff2'),
 }
 
 @font-face {
-    font-family: "Cartograph Sans CF";
-    src: url('../fonts/cartograph-sans-cf-demi-bold.woff2') format('woff2'),
+    font-family: Cartograph Sans CF;
+    src: url(../fonts/cartograph-sans-cf-demi-bold.woff2) format('woff2'),
 }
 
 @font-face {
-    font-family: "Cartograph Mono CF Heavy";
-    src: url('../fonts/Cartograph-Mono-CF-Heavy.woff2') format('woff2'),
+    font-family: Cartograph Mono CF Heavy;
+    src: url(../fonts/Cartograph-Mono-CF-Heavy.woff2) format('woff2'),
 }
 
 /* ########## DOM ########## */
