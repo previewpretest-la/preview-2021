@@ -34,6 +34,10 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     --color-main: #f5c86e;
     --color-secondary: #2b4162;
