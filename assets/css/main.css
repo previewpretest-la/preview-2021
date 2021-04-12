@@ -296,5 +296,8 @@ p {
     .mobileBottom {
         margin-bottom: 15px;
     }
+    .display-10 {
+      font-size: 2.8vh;
+    }
 
 }
