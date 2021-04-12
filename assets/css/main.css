@@ -141,6 +141,11 @@ p {
     border-radius: 10px !important;
 }
 
+.accordion-button:focus {
+    border-color: white;
+    box-shadow: none;
+}
+
 /* ########## UTILITY ########## */
 .logo {
   width: 25%;
