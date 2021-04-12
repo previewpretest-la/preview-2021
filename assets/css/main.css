@@ -133,6 +133,10 @@ p {
     box-shadow: none;
 }
 
+.bordo {
+    border-radius: 10px !important;
+}
+
 /* ########## UTILITY ########## */
 .logo {
   width: 25%;
