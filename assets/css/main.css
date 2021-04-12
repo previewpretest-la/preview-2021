@@ -202,6 +202,13 @@ p {
     padding-bottom: 0;
 }
 
+.desk {
+    display: initial;
+}
+.mob {
+    display: none;
+}
+
 /* iphone */
 @media only screen and (max-width: 414px) {
     .websiteMargin {
@@ -240,6 +247,13 @@ p {
 
     .marginImg {
         padding-bottom: 10px;
+    }
+
+    .desk {
+        display: none;
+    }
+    .mob {
+        display: initial;
     }
 
 }
